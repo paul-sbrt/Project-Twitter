@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "ThorFont";
+  src: url("/src/font/Thor-GlyO.ttf") format("truetype");
+}
+
+.container1 {
+  margin-bottom: 15px;
+}
+
+.message-card {
+  border-radius: 10%;
+  padding: 10px;
+  /* margin-bottom: 10px; */
+  width: 34%;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+}
+
+/* .container1:nth-child(odd) {
+  margin-left: 15%;
+}
+
+.container1:nth-child(even) {
+  margin-right: 15%;
+} */
+
+.message-content {
+  margin-top: 5px;
+  width: 75%;
+  color: #111212;
+  font-family: "ThorFont";
+  margin: 0 auto;
+}
+
+.message-content h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 2.5em;
+}
+
+.date {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.message {
+  font-size: 1.5em;
+  margin-top: 0;
+  text-shadow: 0 0 10px rgb(232, 146, 146), 0 0 20px rgb(232, 146, 146),
+    0 0 30px rgb(232, 146, 146), 0 0 40px rgb(232, 146, 146),
+    0 0 50px rgb(232, 146, 146), 0 0 60px rgb(232, 146, 146),
+    0 0 70px rgb(232, 146, 146);
+}
+
+.manche {
+  width: 50px;
+  height: 150px;
+
+  margin: 0 auto;
+}
+
+.pommeau {
+  width: 49px;
+  height: 60px;
+  border-radius: 20%;
+
+  margin: 0 auto;
+  margin-top: -25px;
+  background-position: bottom;
+}
+
+@media only screen and (max-width: 400px) {
+  .message-card {
+    width: 85%;
+  }
+}

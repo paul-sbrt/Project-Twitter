@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "ThunderFont";
+  src: url("/src/font/Godofthunder-0WO1P.ttf") format("truetype");
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 170px;
+  width: 170px;
+  /* margin-left: 5%; */
+  margin-top: 1%;
+  margin-right: -3%;
+  /* transform: rotate(deg); */
+}
+
+.title {
+  /* margin-left: 18%; */
+  margin-right: 4%;
+  margin-top: 0%;
+  text-align: center;
+  font-family: "ThunderFont";
+  font-size: 8em;
+  letter-spacing: 2px;
+  color: #ffffffe0;
+  animation: disparition 1s infinite alternate; /* Animation pour clignoter */
+}
+
+@keyframes disparition {
+  0% {
+    text-shadow: 0 0 10px #b7d0eb, 0 0 20px #b7d0eb, 0 0 30px #b7d0eb,
+      0 0 40px #b7d0eb, 0 0 70px #b7d0eb, 0 0 80px #b7d0eb;
+  }
+
+  10% {
+    text-shadow: 0 0 12px #b7d0eb, 0 0 24px #b7d0eb, 0 0 36px #b7d0eb,
+      0 0 48px #b7d0eb, 0 0 84px #b7d0eb, 0 0 96px #b7d0eb;
+  }
+
+  20% {
+    text-shadow: 0 0 14px #b7d0eb, 0 0 28px #b7d0eb, 0 0 42px #b7d0eb,
+      0 0 56px #b7d0eb, 0 0 98px #b7d0eb, 0 0 112px #b7d0eb;
+  }
+
+  30% {
+    text-shadow: 0 0 16px #b7d0eb, 0 0 32px #b7d0eb, 0 0 48px #b7d0eb,
+      0 0 64px #b7d0eb, 0 0 112px #b7d0eb, 0 0 128px #b7d0eb;
+  }
+
+  40% {
+    text-shadow: 0 0 18px #b7d0eb, 0 0 36px #b7d0eb, 0 0 54px #b7d0eb,
+      0 0 72px #b7d0eb, 0 0 126px #b7d0eb, 0 0 144px #b7d0eb;
+  }
+
+  50% {
+    text-shadow: 0 0 20px #b7d0eb, 0 0 40px #b7d0eb, 0 0 60px #b7d0eb,
+      0 0 80px #b7d0eb, 0 0 140px #b7d0eb, 0 0 160px #b7d0eb;
+  }
+
+  to {
+    text-shadow: 0 0 10px #b7d0eb, 0 0 20px #b7d0eb, 0 0 30px #b7d0eb,
+      0 0 40px #b7d0eb, 0 0 70px #b7d0eb, 0 0 80px #b7d0eb;
+  }
+}
+
+.slogan {
+  font-family: "ThunderFont";
+  margin-top: -6%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 615px) {
+  .title {
+    font-size: 5em;
+  }
+  .logo {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .title {
+    font-size: 4.5em;
+  }
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+}

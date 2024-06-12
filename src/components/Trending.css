@@ -1,0 +1,37 @@
+.button-wrapper {
+  border: solid 2px #d6e6f2;
+  border-radius: 10px;
+  width: 57%;
+  text-align: center;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+.button {
+  margin: 8px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #ffff;
+  background-color: #102a46;
+  padding: 8px 10px;
+  font-family: "ThunderFont";
+  border: none;
+}
+
+.title-trend {
+  font-family: "ThunderFont";
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+button:hover {
+  background-color: #f1c824;
+}
+
+@media only screen and (max-width: 400px) {
+  .button-wrapper {
+    width: 100%;
+  }
+}
